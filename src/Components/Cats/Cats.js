@@ -1,5 +1,6 @@
 import React from 'react';
-// import CatIndex from './CatIndex'
+import CatIndex from './CatIndex'
+// import CatList from './CatList';
 import { Container } from 'reactstrap';
  
 const Cats = () => {
@@ -19,7 +20,8 @@ const Cats = () => {
          <li>Ensure there are no errors</li>
         </ul>
         <hr />
-       {/* <CatIndex /> */}
+       <CatIndex />
+       {/* <CatList /> */}
      </Container>
    );
 
